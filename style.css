@@ -3,41 +3,69 @@ a {
     color: #111;
 }
 
-header {
-    background-color: aquamarine;
-    text-align: center;
-    padding-bottom: 10vh;
-}
-
-.promo-container {
-    background-color: red;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
-nav {
-    background-color: cyan;
-    text-align: center;
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+.sticky {
     top: 0;
     position: sticky;
     z-index: 10;
 }
 
+.promo-container {
+    background-color: red;
+    padding: 0.75rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-container {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.header-container div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container a {
+    color: #fff;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.icons-container {
+    justify-content: flex-end;
+    gap: 1rem
+}
+
+nav {
+    background-color: #fff;
+    padding: 0.75rem;
+}
+
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    font-weight: bold;
 }
 
 main {
-    background-color: pink;
     text-align: center;
     padding-bottom: 75vh;
 }
 
 .carousel {
-    position: relative;
+    border: 0.5rem solid black;
 }
 
 .carousel img {
@@ -52,8 +80,9 @@ main {
 }
 
 footer {
-    background-color: burlywood;
+    background-color: #111;
     text-align: center;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
+    padding: 15vh;
+    font-weight: bold;
+    color: #fff;
 }
