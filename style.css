@@ -1,0 +1,59 @@
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.promo-container {
+    background-color: red;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+nav {
+    background-color: cyan;
+    text-align: center;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background-color: pink;
+    text-align: center;
+    padding-bottom: 75vh;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel img {
+    width: 1920px;
+    height: 640px;
+    
+    max-width: 100%;
+    min-width: 100%;
+
+    max-width: auto;
+    min-height: auto;
+}
+
+footer {
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
