@@ -3,63 +3,6 @@ a {
     color: #111;
 }
 
-.sticky {
-    top: 0;
-    position: sticky;
-    z-index: 10;
-}
-
-.promo-container {
-    background: #D32B50;
-    padding: 0.75rem;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-}
-
-.header-container {
-    background-color: #111;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2.5rem;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.25rem;
-}
-
-.header-container div {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header-container a {
-    color: #fff;
-}
-
-.logo-container {
-    text-align: center;
-}
-
-.icons-container {
-    justify-content: flex-end;
-    gap: 1rem
-}
-
-nav {
-    background-color: #fff;
-    padding: 0.75rem;
-    border-bottom: 0.125rem solid black;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: bold;
-}
-
 main {
     text-align: center;
     padding-bottom: 75vh;
